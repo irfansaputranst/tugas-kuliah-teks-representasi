@@ -24,8 +24,7 @@ Proyek ini berfokus pada analisis teks ulasan yang diambil dari Play Store untuk
 ### File
 
 - **representasi-text-honor-of-king-2.ipynb**: Notebook Jupyter yang berisi kode lengkap dan penjelasan.
-- **main.py**: Skrip Python utama untuk menjalankan perhitungan TF-IDF.
-- **README.md**: File ini.
+- **README.md**: File dokumentasi ini.
 
 ## Prasyarat
 - Python 3.12.0
