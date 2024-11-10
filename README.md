@@ -1,6 +1,6 @@
 # Proyek Natural Language Processing: Representasi Teks Ulasan Game "Honor of King"
 
-Repositori ini berisi kode untuk proyek **Natural Language Processing (NLP)** yang bertujuan untuk merepresentasikan teks ulasan dari game **Honor of King** di Play Store menggunakan teknik **TF-IDF (Term Frequency - Inverse Document Frequency)**. Proyek ini merupakan bagian dari tugas kuliah **Natural Language Programming** pada program studi **Teknik Informatika** di **Universitas Muhammadiyah Riau**.
+Repositori ini berisi kode dan data untuk proyek **Natural Language Processing (NLP)** yang bertujuan untuk merepresentasikan teks ulasan dari game **Honor of King** di Play Store menggunakan teknik **TF-IDF (Term Frequency - Inverse Document Frequency)**. Proyek ini merupakan bagian dari tugas kuliah **Natural Language Programming** pada program studi **Teknik Informatika** di **Universitas Muhammadiyah Riau**.
 
 ## Deskripsi Proyek
 
@@ -21,12 +21,16 @@ Proyek ini berfokus pada analisis teks ulasan yang diambil dari Play Store untuk
 3. **Analisis N-gram**:
    - Kode mendukung analisis unigram, bigram, dan trigram untuk menangkap hubungan kata serta konteks dalam ulasan pengguna.
 
-### File
+### File dalam Repositori
 
-- **representasi-text-honor-of-king-2.ipynb**: Notebook Jupyter yang berisi kode lengkap dan penjelasan.
-- **README.md**: File dokumentasi ini.
+- **README.md**: Dokumentasi proyek yang memberikan penjelasan tentang proyek, komponen, dan penggunaan.
+- **colloquial-indonesian-lexicon.csv**: Dataset leksikon bahasa gaul Indonesia yang dapat digunakan untuk membersihkan dan menormalisasi kata-kata dalam teks ulasan.
+- **representasi-text-honor-of-king-2.ipynb**: Notebook Jupyter yang berisi kode lengkap dan penjelasan langkah-langkah yang digunakan untuk memproses dan menganalisis ulasan menggunakan TF-IDF.
+- **scrapping-data-hok.csv**: Dataset hasil scraping ulasan pengguna dari Play Store untuk game "Honor of King" dalam format CSV.
+- **word2vec_model**: Model Word2Vec yang dilatih untuk representasi kata berbasis konteks, dapat digunakan untuk memperkaya analisis dengan mendapatkan vektor kata.
 
 ## Prasyarat
+
 - Python 3.12.0
 - Pustaka yang dibutuhkan:
   - `pandas` - untuk manipulasi data dalam bentuk DataFrame.
